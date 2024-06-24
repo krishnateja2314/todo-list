@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(178, 197, 238, 0.47);
+}
+
+input {
+    font-family: 'Press start 2p';
+    padding: 12px;
+    margin: 15px 15px 15px 0px;
+    border-radius: 10px;
+    border: white;
+    width: 88%;
+    font-size: 14px;
+}
+
+button {
+    font-family: 'Press start 2p';
+    padding: 12px;
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+    width: 7%;
+}
+
+button:hover {
+    color: gray;
+}
+
+.main {
+    margin-top: 15px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.todoItem {
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 10px;
+    margin: 15px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.todoItem>p {
+    flex: 1;
+}
+
+i {
+    padding-left: 10px;
+}
+
+i:hover {
+    opacity: 70%;
+}
+
+.actionContainer {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-right: 8px;
+}
+
+.input {
+    display: flex;
+}
+
+.input>button {
+    flex: 1;
+    margin: auto;
+    margin-right: 15px;
+}
+
+.div {
+    margin: 2%;
+}
